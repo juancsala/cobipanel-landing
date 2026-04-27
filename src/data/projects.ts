@@ -9,9 +9,9 @@ export const projects: Project[] = [
     state: 'Hidalgo',
     category: 'Industrial / Logístico',
     description:
-      'Ejecución de acabados arquitectónicos de alto estándar en uno de los complejos logísticos de mayor escala de Mercado Libre en México. El proyecto demandó cumplimiento riguroso de especificaciones técnicas, plazos de entrega precisos y coordinación permanente con el equipo de obra en sitio.',
+      'Ejecución de acabados arquitectónicos en uno de los complejos logísticos de mayor escala de Mercado Libre en México. Proyecto desarrollado bajo estrictas especificaciones técnicas y plazos de entrega precisos.',
     scope:
-      'Acabados arquitectónicos, sistemas de fachada panel sándwich, pisos industriales, instalaciones complementarias.',
+      'Muros de tablaroca · Plafones de suspensión · Pintura · Instalación de alfombras y zócalos vinílicos · Instalación de loseta cerámica · Pisos antiestáticos · Pisos vinílicos',
     principalImage: '/assets/projects/tezontepec/principal.png',
     galleryImages: [
       '/assets/projects/tezontepec/gallery-01.png',
@@ -32,9 +32,9 @@ export const projects: Project[] = [
     state: 'Nuevo León',
     category: 'Industrial / Logístico',
     description:
-      'Proyecto de acabados arquitectónicos para la nave de distribución Vesta 05 de Mercado Libre en Apodaca, Nuevo León. Trabajo ejecutado bajo estándares internacionales de calidad con supervisión continua y entrega en tiempo.',
+      'Acabados arquitectónicos para la nave de distribución Vesta 05 de Mercado Libre en Apodaca, Nuevo León. Trabajo ejecutado bajo estándares internacionales de calidad con supervisión continua y entrega en tiempo.',
     scope:
-      'Fachada panel sándwich, acabados interiores, sistemas de impermeabilización, accesos y andenes de carga.',
+      'Muros de tablaroca · Plafones de suspensión · Pintura · Instalación de alfombras, pisos vinílicos y zócalos vinílicos · Instalación de loseta cerámica · Pisos antiestáticos',
     principalImage: '/assets/projects/vesta05/principal.png',
     galleryImages: [
       '/assets/projects/vesta05/gallery-01.jpeg',
@@ -51,9 +51,9 @@ export const projects: Project[] = [
     state: 'Nuevo León',
     category: 'Industrial / Logístico',
     description:
-      'Ejecución de acabados de alto rendimiento en el complejo Genesis de Mercado Libre en Escobedo, Nuevo León. Proyecto de gran envergadura con requerimientos técnicos específicos para instalaciones logísticas de última generación.',
+      'Acabados de alto rendimiento en el complejo Genesis de Mercado Libre en Escobedo, Nuevo León. Proyecto de gran envergadura con requerimientos técnicos específicos para instalaciones logísticas de última generación.',
     scope:
-      'Acabados arquitectónicos exteriores e interiores, fachadas, sistemas de panel, andenes y áreas administrativas.',
+      'Muros de tablaroca · Plafones de suspensión · Pintura · Instalación de alfombras, pisos vinílicos y zócalos vinílicos · Instalación de loseta cerámica · Pisos antiestáticos',
     principalImage: '/assets/projects/genesis/principal.png',
     galleryImages: [],
   },
@@ -65,9 +65,9 @@ export const projects: Project[] = [
     state: 'Querétaro',
     category: 'Comercial / Desarrollo',
     description:
-      'Participación en el desarrollo Seven Days Gold en Querétaro, proyecto de uso mixto y alto nivel que exigió acabados de primer orden para sus espacios comerciales y corporativos. Alta exigencia en calidad de terminaciones y tiempos de entrega.',
+      'Acabados de primer orden en el desarrollo Seven Days Gold en Querétaro, proyecto de uso mixto y alto nivel con alta exigencia en calidad de terminaciones y tiempos de entrega.',
     scope:
-      'Acabados arquitectónicos, muros, pisos, plafones, fachadas y áreas comunes de alto tráfico.',
+      'Muros de tablaroca · Plafones de nube · Pintura · Instalación de loseta cerámica · Instalación de cancelería de aluminio y vidrio · Instalación de mamparas de baño',
     principalImage: '/assets/projects/seven-days/principal.png',
     galleryImages: [],
   },
@@ -79,9 +79,9 @@ export const projects: Project[] = [
     state: 'Guanajuato',
     category: 'Industrial / Logístico',
     description:
-      'Ejecución de acabados en las instalaciones de Intermex dentro del complejo logístico Puerto Interior en Silao, Guanajuato, uno de los parques industriales más importantes del centro de México. Proyecto ejecutado con rigor técnico y cumplimiento de normas de seguridad industrial.',
+      'Intervención en las instalaciones de Intermex dentro del complejo logístico Puerto Interior en Silao, uno de los parques industriales más importantes del centro de México.',
     scope:
-      'Fachada, paneles estructurales, acabados interiores, sellados y sistemas de impermeabilización.',
+      'Colocación de canopys a base de acero · Cancelería de aluminio y cristal · Lijado y resanado de muros de concreto en interior de nave · Fachada integral a base de perfil nariz y cristal tintex 6mm',
     principalImage: '/assets/projects/intermex/principal.png',
     galleryImages: [],
   },
@@ -93,25 +93,10 @@ export const projects: Project[] = [
     state: 'Nuevo León',
     category: 'Educativo / Corporativo',
     description:
-      'Intervención en instalaciones de la Universidad de Monterrey, una de las instituciones de educación superior más reconocidas del país. El proyecto requirió acabados de alta calidad estética y funcional en un entorno académico exigente y de alto perfil.',
+      'Intervención en instalaciones de la Universidad de Monterrey, una de las instituciones de educación superior más reconocidas del país, con acabados de alta calidad estética y funcional.',
     scope:
-      'Acabados arquitectónicos en espacios académicos, fachadas, pasillos, áreas administrativas y zonas de acceso.',
+      'Forro de puente de acceso con panel de aluminio · Subestructura de tubular de aluminio · Suministro y colocación de escaleras de acero inoxidable para edificio de 5 niveles',
     principalImage: '/assets/projects/udm/principal.png',
     galleryImages: [],
-  },
-  {
-    id: 'truper',
-    name: 'Truper — Centro de Distribución',
-    client: 'Truper',
-    location: 'Jilotepec',
-    state: 'Estado de México',
-    category: 'Industrial / Distribución',
-    description:
-      'Participación en el centro de distribución de Truper en Jilotepec, Estado de México. Proyecto industrial de gran formato con requerimientos técnicos específicos para una empresa líder en el sector de herramientas y productos industriales.',
-    scope:
-      'Acabados de fachada, paneles, sistemas de impermeabilización y terminaciones interiores en bodega de distribución.',
-    principalImage: '/assets/projects/truper/pendiente.png',
-    galleryImages: [],
-    isPending: true,
   },
 ]

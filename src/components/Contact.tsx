@@ -22,14 +22,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Teléfono',
-    value: '[Número de contacto]',
-    placeholder: true,
+    value: '442-273-9254',
+    placeholder: false,
   },
   {
     icon: Mail,
     label: 'Correo electrónico',
-    value: '[correo@cobipanel.com]',
-    placeholder: true,
+    value: 'Jpablo.cobian@cobipanel.com',
+    placeholder: false,
   },
   {
     icon: MapPin,

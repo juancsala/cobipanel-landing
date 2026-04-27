@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 
 const navLinks = [
   { label: 'Inicio',          href: '#inicio' },
@@ -66,8 +65,8 @@ export default function Footer() {
               Contacto
             </p>
             <div className="space-y-3">
-              <p className="text-white/40 text-sm font-archivo italic">[Teléfono de contacto]</p>
-              <p className="text-white/40 text-sm font-archivo italic">[correo@cobipanel.com]</p>
+              <p className="text-white/60 text-sm font-archivo">442-273-9254</p>
+              <p className="text-white/60 text-sm font-archivo">Jpablo.cobian@cobipanel.com</p>
               <p className="text-white/60 text-sm font-archivo">México</p>
             </div>
             <button

@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import {
-  Building2,
+  LayoutTemplate,
+  Grid3x3,
+  Paintbrush,
   Layers,
-  HardHat,
-  Ruler,
-  ShieldCheck,
-  Workflow,
+  Layers2,
+  Zap,
+  Grid2x2,
 } from 'lucide-react'
 
 function useInView(threshold = 0.15) {
@@ -27,40 +28,46 @@ function useInView(threshold = 0.15) {
 
 const services = [
   {
+    icon: LayoutTemplate,
+    title: 'Muros de Tablaroca',
+    description:
+      'Instalación de sistemas de tablaroca para muros interiores en proyectos industriales, corporativos y de alto nivel con acabados de precisión.',
+  },
+  {
+    icon: Grid3x3,
+    title: 'Plafones de Suspensión',
+    description:
+      'Suministro e instalación de plafones de suspensión y plafones de nube para espacios de trabajo, distribución y uso corporativo.',
+  },
+  {
+    icon: Paintbrush,
+    title: 'Pintura',
+    description:
+      'Aplicación de sistemas de pintura en interiores y exteriores bajo especificaciones técnicas precisas, garantizando durabilidad y acabado de calidad.',
+  },
+  {
     icon: Layers,
-    title: 'Acabados Arquitectónicos',
+    title: 'Alfombras y Zócalos Vinílicos',
     description:
-      'Aplicación de sistemas de acabado de alto desempeño en fachadas, muros interiores, plafones y pisos para proyectos de exigencia industrial y corporativa.',
+      'Instalación de alfombras y zócalos vinílicos en espacios corporativos, educativos e industriales con atención al detalle en cada terminación.',
   },
   {
-    icon: Building2,
-    title: 'Proyectos Industriales',
+    icon: Grid2x2,
+    title: 'Loseta Cerámica',
     description:
-      'Ejecución de acabados en naves industriales, centros de distribución y complejos logísticos de gran escala con cumplimiento riguroso de especificaciones técnicas.',
+      'Colocación de loseta cerámica en pisos y muros con niveles y juntas perfectas para proyectos que exigen precisión técnica y estética.',
   },
   {
-    icon: HardHat,
-    title: 'Ejecución de Obra',
+    icon: Zap,
+    title: 'Pisos Antiestáticos',
     description:
-      'Gestión integral del proceso constructivo desde la planeación hasta la entrega, garantizando calidad, seguridad y cumplimiento de tiempos en cada etapa.',
+      'Instalación de pisos antiestáticos para ambientes industriales y tecnológicos que requieren control de electricidad estática en sus operaciones.',
   },
   {
-    icon: Ruler,
-    title: 'Proyectos Corporativos',
+    icon: Layers2,
+    title: 'Pisos Vinílicos',
     description:
-      'Espacios corporativos y educativos con acabados de primer nivel que proyectan solidez institucional y calidad visual en cada detalle.',
-  },
-  {
-    icon: ShieldCheck,
-    title: 'Control de Calidad',
-    description:
-      'Supervisión técnica permanente en cada etapa del proceso para asegurar los más altos estándares de calidad, terminación y seguridad en obra.',
-  },
-  {
-    icon: Workflow,
-    title: 'Coordinación y Entrega',
-    description:
-      'Planeación precisa, coordinación eficiente con el equipo de obra y cumplimiento de plazos de entrega con reportes de avance constantes al cliente.',
+      'Suministro e instalación de pisos vinílicos de alto tráfico para espacios corporativos, logísticos y de uso mixto con acabado premium.',
   },
 ]
 
@@ -79,7 +86,7 @@ export default function Services() {
             transition={{ duration: 0.5 }}
             className="text-amber-500 text-sm font-semibold tracking-widest uppercase mb-4 font-archivo"
           >
-            Nuestros servicios
+            Trabajos realizados
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -87,21 +94,24 @@ export default function Services() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-krona text-white text-3xl md:text-4xl leading-tight"
           >
-            Capacidad técnica para proyectos de alto estándar
+            Especialistas en acabados arquitectónicos de alto estándar
           </motion.h2>
         </div>
 
-        {/* Grid */}
+        {/* Grid — 7 items: 3+3+1 centrado */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10">
           {services.map((s, i) => {
             const Icon = s.icon
+            const isLast = i === services.length - 1
             return (
               <motion.div
                 key={s.title}
                 initial={{ opacity: 0, y: 30 }}
                 animate={visible ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.55, delay: 0.15 + i * 0.08 }}
-                className="group bg-navy-800 hover:bg-navy-700 p-8 transition-colors duration-300 cursor-default"
+                className={`group bg-navy-800 hover:bg-navy-700 p-8 transition-colors duration-300 cursor-default ${
+                  isLast ? 'md:col-span-2 lg:col-span-1' : ''
+                }`}
               >
                 <div className="mb-5">
                   <div className="w-12 h-12 flex items-center justify-center bg-amber-500/10 group-hover:bg-amber-500/20 rounded transition-colors duration-300">
