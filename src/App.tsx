@@ -5,7 +5,6 @@ import Services from './components/Services'
 import Projects from './components/Projects'
 import MissionVision from './components/MissionVision'
 import Quality from './components/Quality'
-import CEO from './components/CEO'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -20,7 +19,6 @@ export default function App() {
         <Projects />
         <MissionVision />
         <Quality />
-        <CEO />
         <Contact />
       </main>
       <Footer />
