@@ -11,7 +11,7 @@ export const projects: Project[] = [
     description:
       'Ejecución de acabados arquitectónicos en uno de los complejos logísticos de mayor escala de Mercado Libre en México. Proyecto desarrollado bajo estrictas especificaciones técnicas y plazos de entrega precisos.',
     scope:
-      'Muros de tablaroca · Plafones de suspensión · Pintura · Instalación de alfombras y zócalos vinílicos · Instalación de loseta cerámica · Pisos antiestáticos · Pisos vinílicos',
+      'Muros de tablaroca · Plafones de suspensión · Pintura · Instalación de alfombras y zoclos vinílicos · Instalación de loseta cerámica · Pisos antiestáticos · Pisos vinílicos',
     principalImage: '/assets/projects/tezontepec/principal.png',
     galleryImages: [
       '/assets/projects/tezontepec/gallery-01.png',
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     description:
       'Acabados arquitectónicos para la nave de distribución Vesta 05 de Mercado Libre en Apodaca, Nuevo León. Trabajo ejecutado bajo estándares internacionales de calidad con supervisión continua y entrega en tiempo.',
     scope:
-      'Muros de tablaroca · Plafones de suspensión · Pintura · Instalación de alfombras, pisos vinílicos y zócalos vinílicos · Instalación de loseta cerámica · Pisos antiestáticos',
+      'Muros de tablaroca · Plafones de suspensión · Pintura · Instalación de alfombras, pisos vinílicos y zoclos vinílicos · Instalación de loseta cerámica · Pisos antiestáticos',
     principalImage: '/assets/projects/vesta05/principal.png',
     galleryImages: [
       '/assets/projects/vesta05/gallery-01.jpeg',
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     description:
       'Acabados de alto rendimiento en el complejo Genesis de Mercado Libre en Escobedo, Nuevo León. Proyecto de gran envergadura con requerimientos técnicos específicos para instalaciones logísticas de última generación.',
     scope:
-      'Muros de tablaroca · Plafones de suspensión · Pintura · Instalación de alfombras, pisos vinílicos y zócalos vinílicos · Instalación de loseta cerámica · Pisos antiestáticos',
+      'Muros de tablaroca · Plafones de suspensión · Pintura · Instalación de alfombras, pisos vinílicos y zoclos vinílicos · Instalación de loseta cerámica · Pisos antiestáticos',
     principalImage: '/assets/projects/genesis/principal.png',
     galleryImages: [
       '/assets/projects/genesis/gallery-01.png',
